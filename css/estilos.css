@@ -1,0 +1,1334 @@
+/*Header*/
+.parrafos-letra{
+    font-size: 2.1rem;
+}
+
+html{
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+header{
+    font-family: 'Oswald', sans-serif;
+}
+
+.fw-200{
+    font-weight: 200;
+}
+
+.fw-400{
+    font-weight: 400;
+}
+
+.fw-600{
+    font-weight: 600; 
+}
+
+.texto-naranja{
+    color: rgb(255, 153, 0);
+   
+    font-size: 4rem;
+
+}
+
+.mayusculas {
+    text-transform: uppercase;
+}
+
+.texto-gris{
+    color: rgb(115, 12, 12);
+    text-shadow: 2px 2px 5px #131212;
+    font-size: 4rem;
+}
+
+img{
+    max-width: 100%; /*imagenes utilizan el 100% del contenedor donde esten*/
+}
+
+.site-header{
+    background-color: #333333;
+    padding: 0.5rem 0 3rem 0;
+}
+
+.logo {
+    width: 120px; 
+    height: auto; 
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.contenido-header{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+
+/*Navegación header*/
+.navegacion-header a{
+    color: #ffffffff;
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 5px #131212;
+}
+
+/*pseudoselector*/
+.navegacion-header a:last-of-type{
+    margin-right: 0;
+}
+
+.navegacion-header a:hover{
+    color: rgb(255, 153, 0);
+}
+
+.contenido-header h1{
+    color: #ffffffff;
+    max-width: 70rem; 
+    padding-bottom: 3rem;
+    line-height: 2;
+    
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    align-items: center;
+}
+
+
+/*Navegación footer*/
+.navegacion-footer a {
+    display: block; /* Muestra los enlaces en bloques verticales */
+    padding: 10px; /* Agrega espacio entre los enlaces */
+    color: #ffffffff;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+    font-size: 1.8rem; 
+}
+
+
+.navegacion-footer a:last-of-type{
+    margin-right: 0;
+}
+
+.navegacion-footer a:hover{
+    color: rgb(255, 153, 0);
+}
+
+.site-footer{
+    background-color: #333333;
+    margin-top: 4rem;
+    
+}
+
+.contenido-footer{
+    display:grid;
+    grid-template-columns: 60% 20% 20%;
+    justify-content: space-between;
+    padding: 3rem;
+    align-items: center;
+}
+
+.columna-footer{
+    color: #ffffff;
+    font-size: 4rem;
+}
+
+.iconos-redes{
+    width: 37rem; 
+    height: auto;
+   
+}
+
+.copyright{
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+/*john*/
+
+ /*Utilidades*/
+
+
+.seccion{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.centrar-texto{
+    text-align: center; /*utilidad centrar texto*/
+}
+
+
+.d-block{
+    display: block !important;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.contenedor-servicios {
+    max-width: 120rem;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    text-align: center;
+}
+
+.contenedor-naranja {
+    max-width: auto;
+    margin: 0 auto; /* Establecer margen superior e inferior a 0 y centrar horizontalmente */
+    background-color: #333333;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: .3rem;
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.contenedor-naranja img {
+    display: block; /* Hacer que la imagen sea un elemento de bloque */
+    margin-left: 5rem; /* Centrar la imagen horizontalmente dentro del contenedor */
+    max-width: 100%; /* Asegurar que la imagen no exceda el ancho del contenedor */
+    border: 1px solid #ccc; /* Agrega un borde de 1 píxel sólido con color gris claro */
+    border-radius: 5px; /* Agrega esquinas redondeadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+}
+
+
+
+
+/*porque elegir sport center gym*/
+.iconos-nosotros{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono{
+    flex-basis: calc(33.3% - 1rem);
+    text-align: center;
+}
+
+.icono h3{
+    text-transform: uppercase; /*cambiar texto de minuscula a mayuscula*/
+}
+
+
+/*contenedor algunos de nuestros planes*/
+.contenedor-planes{
+    display: grid;
+    grid-template-columns: 50% 50%; /*para colocar el numero de columnas del contenedor y el porcentaje de espacio a ocupar*/
+    column-gap: 2rem; /*espacio de entre las dos columnas*/
+    max-width: 120rem;
+    align-items: center;
+    margin-left: 6rem;
+}
+
+hr {
+    border: 2px solid #ffffff; /* Establece el estilo del borde de la línea */
+    margin: 10rem 0; /* Agrega margen arriba y abajo para separar del contenido circundante */
+}
+
+.texto-planes{
+
+    margin-left: 5rem;
+    color: #fff;
+    text-shadow: 2px 2px 5px #131212;
+}
+
+.texto-planes h2{
+    font-weight: 900;
+    font-size: 5rem;
+    margin: 0; /*eliminar margen*/
+    padding: 1rem 0 3rem 0;
+
+}
+
+.boton{
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none; /*quitar linea debajo del texto*/
+    font-size: 1.8rem;
+    padding: 1rem 3rem; /*1 rem parte superior e inferior y 3 rem parte derecha e izquierda*/
+    margin-top: 2rem;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 4rem;
+    /*align-items: center;*/
+}
+
+/*servicios*/
+
+.servicios{
+    flex-basis: calc(25% - 1rem);
+    text-align: center;
+}
+
+
+
+.boton-naranja {
+    background-color: rgb(255, 153, 0);
+    color: white; /* Establece el color del texto a blanco */
+    padding: 1rem 2rem; /* Añade relleno al botón para mejorar la apariencia */
+    text-decoration: none; /* Elimina la subrayado predeterminada en el botón */
+    display: inline-block; /* Hace que el botón se comporte como un bloque en línea */
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Agrega estilos adicionales para cuando el usuario pasa el ratón sobre el botón */
+.boton-naranja:hover {
+    background-color: #000000; /* Cambia el color de fondo al pasar el ratón */
+    border-color: #fff; /* Cambia el color del borde al pasar el ratón */
+}
+
+/*Nuestra ubicacion*/
+.mapouter{
+    position:relative;
+    height:400px;
+    width:800px;
+    background:#fff;
+} 
+
+/*.maprouter a{
+    color:#fff !important;
+    position:absolute !important;
+    top:0 !important;
+    z-index:0 !important;
+}*/
+
+.gmap_canvas{
+    overflow:hidden;
+    height:400px;
+    width:800px;
+}
+
+.gmap_canvas iframe{
+    position:relative;
+    z-index:2;
+}
+
+
+
+
+/*imagen superior*/
+
+.site-header.inicio {
+    margin-top: 0.2rem;
+    background: url(../img/ofertas.jpg);
+    height: 50vh;
+    min-height: 60rem;
+    background-position: center;
+    background-size: cover;
+    display: flex; /* Utiliza Flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+
+}
+
+.contenedor h1 {
+    color: rgb(255, 255, 255); /* Cambié el valor del color a blanco */
+    max-width: 100rem;
+    padding-bottom: 3rem;
+    line-height: 2;
+    font-size: 8rem;
+    text-shadow: 2px 2px 5px #131212;
+
+}
+
+/*por qué sport...*/
+.titulos-ps{
+    color: rgb(255, 255, 255);
+}
+
+/*algunos de nues...*/
+
+/*subtitulos*/
+.subt-alg{
+    color:rgb(255, 153, 0);
+    font-size: 3rem;
+}
+
+.boton-blanco{
+    background-color: rgb(255, 153, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.boton-blanco:hover {
+    background-color: rgb(0, 0, 0); /* Cambia el color de fondo al pasar el ratón */
+    color: #fff; /* Cambia el color del borde al pasar el ratón */
+  
+}
+
+.contenedor-mapa{
+    align-items: center;
+    margin-left: 33rem;
+    margin-bottom: 12rem;
+}
+
+
+/*Formulario*/
+
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    margin-top: 20px; /* Añade margen superior para separar del encabezado */
+}
+
+.formulario input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Añade margen inferior para separar del botón */
+    width: 300px;
+}
+
+.formulario button {
+    padding: 10px 20px;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0); /* Cambia el color de fondo al pasar el ratón */
+    color: #fff; /* Cambia el color del borde al pasar el ratón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+/*ESTILOS PARA PAGINA SERVICIOS*/
+
+.site-header.servicio {
+    margin-top: 0.2rem;
+    background: url(../img/ser_1.jpg);
+    height: 50vh;
+    min-height: 30rem;
+    background-position: center;
+    background-size: cover;
+    display: flex; /* Utiliza Flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    margin-bottom: 5rem;
+
+}
+
+.tarjetas-servicios{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido-tarjeta {
+    padding: 1rem;
+    border: 2px solid rgb(255, 153, 0);
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 2rem;
+    background-color: rgb(247, 247, 247);
+}
+
+.contenido-tarjeta h3 {
+    background-color: orange;
+    color: white;
+    padding: 10px; /* Ajusta el relleno según tus preferencias */
+    margin-bottom: 10px; /* Añade un espacio en la parte inferior */
+}
+
+
+
+.tarjeta {
+    flex-basis: calc(33.3% - 1rem);
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+
+.parrafo-servicio {
+    font-size: 2.2rem;
+}
+
+
+
+.texto-servicios{
+    font-size: 2rem;
+    margin-left: 5rem;
+    color: #000000;
+    text-shadow: 2px 2px 5px #131212;
+}
+
+/*Pagina de planes*/
+
+.texto-span {
+    color: rgb(255, 153, 0);
+  }
+
+  .site-header.plan {
+    margin-top: 0.2rem;
+    background: url(../img/plan.jpg);
+    height: 50vh;
+    min-height: 30rem;
+    background-position: center;
+    background-size: cover;
+    display: flex; /* Utiliza Flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    margin-bottom: 5rem;
+
+}
+
+.tabla-planes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.columna {
+    flex-basis: 23%;
+   
+}
+
+.columna h3 {
+    background-color: #fff; /* Deja el fondo en blanco para la primera columna de título de cabecera */
+    padding: 10px;
+}
+
+.columna ul {
+    list-style-type: none;
+    padding: 0;
+    
+    
+}
+
+.columna ul li {
+    border-bottom: 1px solid #ccc; /* Añade un borde inferior a cada elemento de la lista para separar las filas */
+    padding: 10px;
+   
+   
+}
+
+/* Añade un borde inferior a los elementos li en todas las columnas */
+.tabla-planes .columna ul li {
+    border-bottom: 1px solid #ccc;
+}
+
+.columna img {
+    width: 32px; /* Establece el ancho deseado */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    display: block; /* Añade esta propiedad para centrar la imagen horizontalmente dentro de la columna */
+    margin: 0 auto;
+}
+
+.columna h3{
+    margin-bottom: 5rem;
+    margin-top: auto;
+}
+
+
+
+/*Clases y horarios*/
+
+.site-header.horarios {
+    margin-top: 0.2rem;
+    background: url(../img/horarios.jpg);
+    height: 50vh;
+    min-height: 30rem;
+    background-position: center;
+    background-size: cover;
+    display: flex; /* Utiliza Flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    margin-bottom: 5rem;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid #6f6f6f;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333333;
+}
+
+th{
+    color: rgb(255, 153, 0);
+}
+
+
+.instructores {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.tarjeta-instructor {
+    width: 30%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta-instructor img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.tarjeta-instructor h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.tarjeta-instructor p {
+    color: #666;
+}
+
+
+/*Estilos sobre nosostros*/
+.site-header.nosotros {
+    margin-top: 0.2rem;
+    background: url(../img/nosotros.jpg);
+    height: 50vh;
+    min-height: 30rem;
+    background-position: center;
+    background-size: cover;
+    display: flex; /* Utiliza Flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    margin-bottom: 5rem;
+
+}
+
+.sobre-nosotros {
+    margin-top: 30px;
+    border: 2px solid rgb(255, 153, 0);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.historia, .mision, .vision {
+    margin-bottom: 30px;
+}
+
+.sobre-nosotros img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.mision, .vision {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.mision img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.vision img{
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-left: 2rem;
+}
+
+.mision p, .vision p {
+    text-align: justify;
+}
+
+.valores-gimnasio {
+    border: 2px solid rgb(255, 153, 0);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.valores-gimnasio ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.valores-gimnasio li {
+    margin-bottom: 10px;
+}
+
+.valores-gimnasio .texto-valoracion {
+    text-align: justify;
+}
+
+
+/*Pagina ofertas*/
+
+.site-header.ofertas {
+    margin-top: 0.2rem;
+    background: url(../img/ofer.jpg);
+    height: 50vh;
+    min-height: 30rem;
+    background-position: center;
+    background-size: cover;
+    display: flex; /* Utiliza Flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    margin-bottom: 5rem;
+}
+
+.ofertas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.oferta-tarjeta {
+    width: 30%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+}
+
+.precio-oferta {
+    display: block;
+    font-weight: bold;
+    color: rgb(255, 153, 0);
+    margin-top: 10px;
+}
+
+ /* Estilos para los combos */
+
+
+ .seleccion-ciudad-sede {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.seleccion {
+    width: 300px; /* Ajusta el ancho según tus preferencias */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilos para las tarjetas de beneficios */
+.beneficios-afiliacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.tarjeta-beneficio {
+    width: 70%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.tarjeta-beneficio img {
+    width: 100%; /* Asegura que la imagen se ajuste al ancho de la tarjeta */
+    border-radius: 8px; /* Aplica bordes redondeados a la imagen */
+    margin-bottom: 10px; /* Espaciado inferior entre la imagen y el título */
+}
+
+.tarjeta-beneficio h3 {
+    color: rgb(255, 153, 0);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.tarjeta-beneficio p {
+    font-size: 16px;
+}
+
+.tarjeta-beneficio img {
+    width: 100%; /* Asegura que la imagen se ajuste al ancho de la tarjeta */
+    max-height: 200px; /* Establece una altura máxima para las imágenes */
+    object-fit: cover; /* Mantiene la proporción y cubre completamente el contenedor */
+    border-radius: 8px; /* Aplica bordes redondeados a la imagen */
+    margin-bottom: 10px; /* Espaciado inferior entre la imagen y el título */
+}
+
+/*Estilos para contactanos*/
+.site-header.contactanos {
+    margin-top: 0.2rem;
+    background: url(../img/contactanos.jpg);
+    height: 50vh;
+    min-height: 30rem;
+    background-position: center;
+    background-size: cover;
+    display: flex; /* Utiliza Flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    margin-bottom: 5rem;
+}
+
+.contenedor-formulario {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.formulario-contacto {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #e44d26;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff6633;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="checkbox"]:checked {
+    background-color: orange;
+    border-color: orange;
+}
+
+.tarjeta-contacto {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 40rem;
+}
+
+.tarjeta-contacto h2 {
+    color: orange;
+}
+
+.tarjeta-contacto p {
+    margin: 10px 0;
+}
+
+.tarjeta-contacto a {
+    color: orange;
+    text-decoration: underline;
+}
+
+/*Estilos para descripcion del servicio*/
+
+.site-header.servicio-info {
+    margin-top: 0.2rem;
+    background: url(../img/servicio_info.jpg);
+    height: 50vh;
+    min-height: 30rem;
+    background-position: center;
+    background-size: cover;
+    display: flex; /* Utiliza Flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    margin-bottom: 5rem;
+}
+
+.tarjeta-pesas {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex; /* Establece el contenedor como un contenedor flexible */
+}
+
+.tarjeta-pesas li {
+    text-align: left;
+    list-style-type:disc; /* Agrega viñetas a la lista */
+    padding-left: 15px; /* Ajusta el margen izquierdo según sea necesario */
+    margin-left: 6rem;
+}
+
+.columna-izquierda {
+    flex: 1; /* Hace que la columna izquierda ocupe todo el espacio disponible */
+    padding-right: 20px; /* Agrega un espacio entre las dos columnas */
+}
+
+.columna-derecha {
+    flex: 1; /* Hace que la columna derecha ocupe todo el espacio disponible */
+}
+
+.tarjeta-pesas img {
+    max-width: 100%;
+    height: 80rem; /* Ajusta la altura automáticamente para mantener la proporción original */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+
+
+.tarjeta-pesas ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tarjeta-pesas li {
+    padding: 5px 0;
+}
+
+.tarjeta-pesas p {
+    color: #555;
+}
+
+.iconos {
+    display: flex;
+  }
+  
+.columna-logos {
+    flex: 1; 
+    text-align: center;
+  }
+
+.columna-logos img{
+    margin-top: 2rem;
+    width: 50px;
+    height: auto;
+}
+
+/*Estilos para descripcion del servicio---dos*/
+.site-header.servicio-dos-info {
+    margin-top: 0.2rem;
+    background: url(../img/servicio-dos.jpg);
+    height: 50vh;
+    min-height: 30rem;
+    background-position: center;
+    background-size: cover;
+    display: flex; /* Utiliza Flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    margin-bottom: 5rem;
+}
+
+
+/*Estilos para terminos y condiciones*/
+.texto-span {
+    color: rgb(255, 153, 0);
+  }
+
+  .site-header.terminos {
+    margin-top: 0.2rem;
+    background: url(../img/ter_1.jpg);
+    height: 50vh;
+    min-height: 30rem;
+    background-position: center;
+    background-size: cover;
+    display: flex; /* Utiliza Flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    margin-bottom: 5rem;
+
+}
+
+.parrafo-terminos {
+    font-size: 2.2rem;
+}
+
+.mora, .procedimiento, .cambio {
+    margin-bottom: 30px;
+}
+
+
+.terminos-condiciones {
+    margin-top: 30px;
+    border: 2px solid rgb(255, 153, 0);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.terminos-condiciones img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.procedimiento, .cambio, .mora {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mora img{
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-left: 2rem;
+}
+
+.procedimiento img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.cambio img{
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-left: 2rem;
+}
+
+.procedimiento p, .cambio p, .mora p {
+    text-align: justify;
+}
+
+
+/*Estilos para politicas de privacidad*/
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);  
+  }
+
+/*Estilos para politicas de reembolso*/
+
+.texto-span {
+    color: rgb(255, 153, 0);
+  }
+
+  .site-header.reembolso {
+    margin-top: 0.2rem;
+    background: url(../img/reembolso.jpg);
+    height: 50vh;
+    min-height: 30rem;
+    background-position: center;
+    background-size: cover;
+    display: flex; /* Utiliza Flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    margin-bottom: 5rem;
+
+}
+
+.politicas-reembolso {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .politica-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+
+  /*Estilos para preguntas frecuentes*/
+
+  .texto-span {
+    color: rgb(255, 153, 0);
+  }
+
+  .site-header.preguntas {
+    margin-top: 0.2rem;
+    background: url(../img/preguntas.jpg);
+    height: 50vh;
+    min-height: 30rem;
+    background-position: center;
+    background-size: cover;
+    display: flex; /* Utiliza Flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    margin-bottom: 5rem;
+
+}
+  
+  .preguntas-frecuentes {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .acordeon {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .pregunta {
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+  }
+  
+  .pregunta-titulo {
+    padding: 15px;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .respuesta {
+    padding: 15px;
+    display: none;
+  }
+  
+  .respuesta.active {
+    display: block;
+  }
+
+
+.pregunta {
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease; /* Transición para el cambio de color de fondo */
+  }
+  
+  .pregunta:hover {
+    background-color: #eaeaea; /* Cambia el color de fondo al pasar el cursor */
+    cursor: pointer; /* Cambia el cursor al pasar sobre la pregunta */
+  }
+  
+  .pregunta-titulo {
+    color: #333; /* Color de texto predeterminado */
+    transition: color 0.3s ease; /* Agregamos transición para el cambio de color de texto */
+  }
+  
+  .pregunta:hover .pregunta-titulo {
+    color: rgb(255, 153, 0); /* Cambia el color del texto al pasar el cursor */
+  }
+  
+
+/*Estilos para galeria de fotos*/
+
+.texto-span {
+    color: rgb(255, 153, 0);
+  }
+
+  .site-header.galeria {
+    margin-top: 0.2rem;
+    background: url(../img/galeria.jpg);
+    height: 50vh;
+    min-height: 30rem;
+    background-position: center;
+    background-size: cover;
+    display: flex; /* Utiliza Flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    margin-bottom: 5rem;
+
+}
+
+
+.gallery {
+    max-width: 1200px; /* Ancho máximo de la galería */
+    margin: 0 auto;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: 10px; /* Espacio entre las imágenes */
+  }
+  
+  .item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease; /* Efecto al pasar el cursor */
+  }
+  
+  /* Overlay para el efecto hover */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Color del overlay */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .item:hover .overlay {
+    opacity: 1;
+  }
+  
+  /* Estilos para el texto en el overlay */
+  .overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  
+  /* Estilos para la página de noticias */
+  .texto-span {
+    color: rgb(255, 153, 0);
+  }
+
+  .site-header.noticia {
+    margin-top: 0.2rem;
+    background: url(../img/noticias.jpg);
+    height: 50vh;
+    min-height: 30rem;
+    background-position: center;
+    background-size: cover;
+    display: flex; /* Utiliza Flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    margin-bottom: 5rem;
+
+}
+
+  
+  /* Estilos generales */
+
+
+ 
+  
+  article {
+    width: 45%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .noticia img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .noticia h2 {
+    font-size: 1.5em;
+    margin: 10px;
+  }
+  
+  .noticia p {
+    margin: 10px;
+    color: #555;
+  }
+
+.main-noti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
